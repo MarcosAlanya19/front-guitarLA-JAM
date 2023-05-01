@@ -29,11 +29,11 @@ yarn run start
 ```
 
 ## Pages
-- **index:**Muestra la homepage de la pagina, donde se muestra una combinación del blog y tienda de la pagina.
-- **blog:**Muestra blogs con información referente a guitarras.
-- **carrito:**Muestra todos los articulos guardados para su compra.
-- **nosotros:**Muestra información relevante a la pagina.
-- **tienda:**Muestra todas las guitarras que estan en venta.
+- ***index:***Muestra la homepage de la pagina, donde se muestra una combinación del blog y tienda de la pagina.
+- ***blog:***Muestra blogs con información referente a guitarras.
+- ***carrito:***Muestra todos los articulos guardados para su compra.
+- ***nosotros:***Muestra información relevante a la pagina.
+- ***tienda:***Muestra todas las guitarras que estan en venta.
 
 ## Author
 
