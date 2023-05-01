@@ -13,7 +13,7 @@ const Nosotros: FC = () => {
       <main className='contenedor'>
         <h2 className='heading'>Nosotros</h2>
         <div className={styles.contenido}>
-          <Image src={config.IMG.US} alt='img-nosotros' width={1000} height={800} />
+          <Image src={config.IMG.US} alt='img-nosotros' width={1000} height={1000} />
           <div>
             <p>
               Bienvenido a nuestra tienda de guitarras, donde encontrarás todo lo que
@@ -27,17 +27,6 @@ const Nosotros: FC = () => {
               músico experimentado. Ofrecemos una experiencia de compra personalizada
               y amigable, con un ambiente relajado y acogedor que te permitirá probar
               y comparar diferentes guitarras antes de tomar tu decisión.
-            </p>
-            <p>
-              Además de guitarras, también contamos con accesorios esenciales para
-              guitarristas, como cuerdas, púas, afinadores, amplificadores, efectos y
-              mucho más. Siempre estamos actualizados con las últimas tendencias y
-              novedades en el mercado para que puedas encontrar lo que buscas.
-            </p>
-            <p>
-              Nos apasiona la música y estamos comprometidos en brindar la mejor
-              atención y servicio a nuestros clientes. Ven a visitarnos y descubre
-              todo lo que nuestra tienda de guitarras tiene para ofrecerte.
             </p>
           </div>
         </div>
