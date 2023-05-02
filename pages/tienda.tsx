@@ -28,7 +28,7 @@ const Tienda: FC<Props> = ({ guitarras }) => {
 
 export default Tienda;
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL }/guitarras?populate=imagen`);
   const { data: guitarras } = await res.json();
 
@@ -38,14 +38,3 @@ export async function getServerSideProps() {
     },
   };
 }
-
-// export async function getStaticProps() {
-//   const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL }/api/guitarras?populate=imagen`);
-//   const { data: guitarras } = await res.json();
-
-//   return {
-//     props: {
-//       guitarras,
-//     },
-//   };
-// }
